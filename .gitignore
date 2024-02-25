@@ -1,0 +1,6 @@
+miniconda
+*.snakemake
+*checkpoint*
+*processed*
+*.pyc
+*.zip
