@@ -93,7 +93,7 @@ number = int(sys.argv[1])
 number_squared = number ** 2
 
 # print the name
-print(f"Square of {number} is {number_squared}!")
+print(f"Square of {number} is {number_squared}.")
 ```
 
 Run the script with `python scripts/square_int.py NUMBER` and see if it works. NUMBER can be any number you want.
@@ -112,7 +112,7 @@ Create a script, called `add_two_numbers.py`, that takes two numbers as input an
 
 <br>
 
-**Keep track of the developemt**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
 
 ---
 
@@ -128,11 +128,11 @@ Let's go through an example.
 
 We have a numpy array in the folder `data/raw` and we want to create a standardized version (mean=0 and std=1) of it, using the command:
 ```
-python scripts/stardadize_array.py data/raw/array.npy  data/processed/standardized_array.npy
+python scripts/standardize_array.py data/raw/array.npy  data/processed/standardized_array.npy
 ```
 **Note** that the standardized array is being saved in a folder called `data/processed`.
 
-And here is the script `stardadize_array.py` for this:
+And here is the script `standardize_array.py` for this:
 ```python
 import sys
 import numpy as np
@@ -179,7 +179,7 @@ python scripts/extract_valid_trials.py data/raw/session.csv  data/processed/sess
 
 <br>
 
-**Keep track of the developemt**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
 
 ---
 
@@ -189,22 +189,20 @@ Let's take this even a step further: let's imagine a situation where we have som
 
 Let's go through an example where we run a scipt to generate the processed data and then continue exploring this processed data in the notebook.
 
-First, let's create a directory called `notebooks` where we can store out notebooks (keeping our project organized).
+<br>
+
+**Example**: In a Jupyter notebook, use the script `standardize_array.np` to create a standardized version (mean=0 and std=1) of the data and compare it with the original version. Please see (and run) the `standardize_array_script_demo.ipynb` in the `notebooks` directory.
 
 <br>
 
-**Example**: Create a standardized version (mean=0 and std=1) of the data and compare it with the original version.
-
-<br>
-
-**Exercise**: Create a normalized version (min=0 and max=1) of the data and compare it with the original version.
+**Exercise**: In a new notebook check if the `normalize_data.py` CLI works correclty.
 - what are the min and max values of the original data?
 - did the normalization work correctly? i.e. is data min value 0 and max value 1?
 
 <br>
 
-**Exercise**: Create a CSV file containing only valid trials and compute the proportion of active trials where the subject's response was correct (i.e. `response=1`)
+**Exercise**: In the same notebook, use the script `extract_valid_trials.py` to create a CSV file containing only valid trials, and use the resulting CSV file to compute the proportion of active trials where the subject's response was correct (i.e. `response=1`)
 
 <br>
 
-**Keep track of the developemt**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.

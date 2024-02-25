@@ -1,6 +1,18 @@
 Here are some functions that might come handy going through the exercises.
 
-**Numpy Functions:**
+<br>
+
+**Sys Module Functions**
+
+| Function               | Code Example                           | Description                                                   |
+|------------------------|----------------------------------------|---------------------------------------------------------------|
+| Get the first argument | `args = sys.argv[1]`                   | Access the first arguments passed to the script.              |
+| Get the first argument | `args = sys.argv[2]`                   | Access the second arguments passed to the script.             |
+| Get the first argument | `args = sys.argv[3]`                   | Access the third arguments passed to the script.              |
+
+<br>
+
+**Numpy Functions**
 
 | Function       | Code                             | Description                                     |
 |----------------|----------------------------------|-------------------------------------------------|
@@ -11,7 +23,9 @@ Here are some functions that might come handy going through the exercises.
 | Array minimum  | `np.min(array)`                  | Find the minimum value in an array.             |
 | Array maximum  | `np.max(array)`                  | Find the maximum value in an array.             |
 
-**Pandas Functions:**
+<br>
+
+**Pandas Functions**
 
 | Function          | Code                                     | Description                                                      |
 |-------------------|------------------------------------------|------------------------------------------------------------------|
