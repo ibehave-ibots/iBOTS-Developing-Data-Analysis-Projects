@@ -4,7 +4,7 @@ Here are some functions that might come handy going through the exercises.
 
 | Function       | Code                             | Description                                     |
 |----------------|----------------------------------|-------------------------------------------------|
-| Load array     | `np.load('file.npy')`            | Load a numpy array from a .npy file.            |
+| Load array     | `array = np.load('file.npy')`    | Load a numpy array from a .npy file.            |
 | Save array     | `np.save('file.npy', array)`     | Save a numpy array to a .npy file.              |
 | Array mean     | `np.mean(array)`                 | Compute the mean of an array.                   |
 | Array std dev  | `np.std(array)`                  | Compute the standard deviation of an array.     |
@@ -15,7 +15,7 @@ Here are some functions that might come handy going through the exercises.
 
 | Function          | Code                                     | Description                                                      |
 |-------------------|------------------------------------------|------------------------------------------------------------------|
-| Read CSV          | `pd.read_csv('file.csv')`                | Read data from a CSV file into a DataFrame.                      |
+| Read CSV          | `df = pd.read_csv('file.csv')`           | Read data from a CSV file into a DataFrame.                      |
 | Write CSV         | `df.to_csv('file.csv', index=False)`     | Write a DataFrame to a CSV file.                                 |
 | Column mean       | `df.mean()`                              | Compute the mean of each column in a DataFrame.                  |
 | Column std dev    | `df.std()`                               | Compute the standard deviation of each column in a DataFrame.    |
