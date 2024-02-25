@@ -30,6 +30,8 @@ Note that, inside the script we simply have Python code and it can contain any c
 
 By going through the following exercises, let's explore different aspects of creating and executing python scripts.
 
+Also, you might find some of the code/functions in the [cheatsheet](cheatsheet.md) useful. Let's start!
+
 ---
 
 ### Creating and executing Python scripts
