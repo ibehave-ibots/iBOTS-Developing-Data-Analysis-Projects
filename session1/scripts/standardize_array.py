@@ -7,7 +7,7 @@ output_array_path = sys.argv[2] # grab the second input
 
 # Load the input and standardize it
 input_array = np.load(input_array_path)
-output_array = (input_array - input_array.mean()) / input_array.std()
+output_array = (input_array - np.mean(input_array)) / np.std(input_array)
 
 # Save the standardized array
 np.save(output_array_path, output_array)
