@@ -42,7 +42,7 @@ rule clean_data:
     input: "path/to/data/raw/dataset.csv"
     output: "path/to/data/processed/clean_dataset.csv"
     shell:
-        "path/to/scripts/clean_data.py {input} {output}"
+        "python path/to/scripts/clean_data.py {input} {output}"
 ```
 
 In this rule, called `clean_data`, we used either directly Python code (example 1) or a Python script (example 2) to clean the raw dataset (`raw_dataset.csv`), producing a cleaned dataset (`cleaned_dataset.csv`).
@@ -89,7 +89,7 @@ Steps:
 
 <br>
 
-**Exercise**: Create a rule that takes the `array.npy` (in the `data/raw` folder) and saves a normalized version of it called `array_standardized.npy` (in the `data/processed` folder). Use the corresponding script for this rule (look into the `scripts` folder). Please run the rule and check if it works.
+**Exercise**: Create a rule that takes the `array.npy` (in the `data/raw` folder) and saves a normalized version of it called `array_normalized.npy` (in the `data/processed` folder). Use the corresponding script for this rule (look into the `scripts` folder). Please run the rule and check if it works.
 
 <br>
 
