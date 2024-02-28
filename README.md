@@ -23,3 +23,4 @@ By the end of this workshop, you'll be able to develop and manage data analysis 
 
 ### Session 4: Workflows with Snakemake [![Generic badge](https://img.shields.io/badge/Open_in_Gitpod-FF8F0E.svg)](https://gitpod.io/#https://github.com/ibehave-ibots/iBOTS-Developing-Data-Analysis-Projects)
 
+### Session 5: Scaling up Snakemake Workflows [![Generic badge](https://img.shields.io/badge/Open_in_Gitpod-FF8F0E.svg)](https://gitpod.io/#https://github.com/ibehave-ibots/iBOTS-Developing-Data-Analysis-Projects)
