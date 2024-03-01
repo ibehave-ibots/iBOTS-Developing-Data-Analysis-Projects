@@ -69,7 +69,7 @@ So far we have created multiple workflows that are independent of each other (i.
 
 Yes! to do this we can use `rule all`. All we need to do is to add a new rule at the very top of our `Snakefile` called `rule all` and we list the final outputs of all workflows as input for `rule all`:
 
-```
+```python
 # Define the rule all with all final output files as inputs
 rule all:
     input:
