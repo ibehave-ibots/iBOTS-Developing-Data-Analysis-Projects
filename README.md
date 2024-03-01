@@ -22,5 +22,9 @@ By the end of this workshop, you'll be able to develop and manage data analysis 
 - [**Project**](session3/notebooks/3_identifying_repetitive_patterns.ipynb): Extracting functions from existing project code and storing them into modules 
 
 ### Session 4: Workflows with Snakemake [![Generic badge](https://img.shields.io/badge/Open_in_Gitpod-FF8F0E.svg)](https://gitpod.io/#https://github.com/ibehave-ibots/iBOTS-Developing-Data-Analysis-Projects)
+- [**Exercises - part 1**](session4/1_intro_to_snakemake.md): Intro to Snakemake and creating single rules
+- [**Exercises - part 2**](session4/2_workflows_with_snakemake.md): Creating workflows with Snakemake
 
 ### Session 5: Scaling up Snakemake Workflows [![Generic badge](https://img.shields.io/badge/Open_in_Gitpod-FF8F0E.svg)](https://gitpod.io/#https://github.com/ibehave-ibots/iBOTS-Developing-Data-Analysis-Projects)
+- [**Exercises**](session5/scaling_up_workflows_with_wildcards.md): Scaling up Snakemake workflows with wildcards
+- [**Project**](session5/scaling_up_workflows_with_wildcards.md#workflow-for-the-steinmetz-dataset): Creating a Snakemake workflow for Steinmetz dataset
