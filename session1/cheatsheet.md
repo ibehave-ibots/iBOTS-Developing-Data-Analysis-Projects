@@ -2,7 +2,7 @@ Here are some functions that might come handy going through the exercises.
 
 <br>
 
-**Sys Module Functions**
+**Sys Module**
 
 | Function               | Code Example                           | Description                                                   |
 |------------------------|----------------------------------------|---------------------------------------------------------------|
@@ -12,7 +12,7 @@ Here are some functions that might come handy going through the exercises.
 
 <br>
 
-**Numpy Functions**
+**Numpy**
 
 | Function       | Code                             | Description                                     |
 |----------------|----------------------------------|-------------------------------------------------|
@@ -25,7 +25,7 @@ Here are some functions that might come handy going through the exercises.
 
 <br>
 
-**Pandas Functions**
+**Pandas**
 
 | Function          | Code                                     | Description                                                      |
 |-------------------|------------------------------------------|------------------------------------------------------------------|

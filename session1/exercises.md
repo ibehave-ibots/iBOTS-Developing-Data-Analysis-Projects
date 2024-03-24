@@ -112,7 +112,7 @@ Create a script, called `add_two_numbers.py`, that takes two numbers as input an
 
 <br>
 
-**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have created some new files, let's commit the changes (with a short message) and push to GitHub.
 
 ---
 
@@ -179,7 +179,7 @@ python scripts/extract_valid_trials.py data/raw/session.csv  data/processed/sess
 
 <br>
 
-**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have created some new files, let's commit the changes (with a short message) and push to GitHub.
 
 ---
 
@@ -205,4 +205,4 @@ Let's go through an example where we run a scipt to generate the processed data 
 
 <br>
 
-**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have created some new files, let's commit the changes (with a short message) and push to GitHub.
