@@ -73,7 +73,7 @@ Yes! to do this we can use `rule all`. All we need to do is to add a new rule at
 # Define the rule all with all final output files as inputs
 rule all:
     input:
-        "data/other_workflow/combined_array_standardized.npy",
+        "data/processed/combined_array_standardized.npy",
         "data/processed/session_valid_correct_response.csv"
 ```
 
