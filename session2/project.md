@@ -8,7 +8,7 @@ We will be using a subset of the Steinmetz dataset ([Nature 2019](https://www.na
 - Steinmetz data for three recording sessions (~13MB): [https://uni-bonn.sciebo.de/s/2kRLP1Qsj4VXwLk](https://uni-bonn.sciebo.de/s/2kRLP1Qsj4VXwLk)
 - Same data but without neural responses (~6MB): [https://uni-bonn.sciebo.de/s/cELWgBIoFCl2ts3](https://uni-bonn.sciebo.de/s/cELWgBIoFCl2ts3)
 
-For a more detailed decsription (maybe while the data is being downloaded?) you can watch this short (~8min) [YouTube video](https://youtu.be/WXn4-FpVaOo?si=0dIgwNUWGajmZ4B6)
+For a more detailed description (maybe while the data is being downloaded?) you can watch this short (~8min) [YouTube video](https://youtu.be/WXn4-FpVaOo?si=0dIgwNUWGajmZ4B6)
 
 ---
 

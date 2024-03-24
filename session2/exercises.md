@@ -1,6 +1,6 @@
 ## Creating CLIs with Python
 
-While scripts are valuable tools for automating tasks, Command-Line Interfaces (CLIs) make scripts more powerful and user-friendly, allowing for easier use.
+There are several ways to run automated tasks in Python. Two of the more common approaches are using scripts and Command-Line Interfaces (CLIs). While they share some similarities, CLIs make scripts more powerful and user-friendly, allowing for easier use.
 
 Here are the key differences between scripts and CLIs:
 
@@ -8,7 +8,7 @@ Here are the key differences between scripts and CLIs:
 |------------|-------------|----------|
 | **User Interaction** | Limited, often run with predefined operations or simple input parameters. | Enhanced, with interactive prompts, menus, and more complex input handling. |
 | **Parameter Handling** | Basic, typically through command-line arguments or file input. | Dynamic, with support for optional and mandatory arguments, complex command structures, and detailed feedback on incorrect inputs. |
-| **Usability & Documentation** | Requires manual documentation, which may not be as accessible to new users. | Often includes built-in help options (`--help`), automatically generating usage documentation and making the tool more user-friendly. |
+| **Usability & Documentation** | Requires manual documentation, which may not be as accessible to new users. | Often includes built-in help options (`--help`), options for automatically generating usage documentation and making the tool more user-friendly. |
 | **Scalability & Integration** | Designed for specific, standalone tasks; integration into larger workflows can be cumbersome. | Easily integrated into automation pipelines, compatible with other tools, and designed for composability in larger systems. |
 
 In this session, we will use Python's `argparse` library to create user-friendly CLIs. **Argparse** is a simple yet powerful tool that allows creating CLIs with different levels of complexity using minimal code.
@@ -25,7 +25,7 @@ To help notice the difference between a script and a CLI, here is a side-by-side
 
 ![alt text](script_vs_cli.png)
 
-Note that, while the code for the script is shorter, it is much less informative - if the script is longer and more complex it will be difficult for a user that is not familiar with the code to interact with it. On the other hand, when we use `argparse`, we can give the input arguments names, and even provide a help text that the user can read and get a better understanding how to run the command and how interact with the code. 
+Note that, although the script's code is shorter, it is much less informative - if the script is longer and more complex it will be difficult for a user that is not familiar with the code to interact with it. On the other hand, when we use `argparse`, we can give the input arguments names, and even provide a help text that the user can read and get a better understanding how to run the command and how to interact with the code. 
 
 What is the command to run this CLI? Same as the script:
 ```
@@ -67,15 +67,15 @@ Does it work?
 
 <br>
 
-**Exercise**: There is an script in the `scripts` forlder called `extract_valid_trials.py`. This scripts takes the path to a CSV file that contains trial information from a recording session and saves a new CSV file that only contains the "valid" trials. Can you create the CLI version of it please? Save it in the `clis` folder, and please make sure it works by applying it on the `session.csv` (which is in the `data/raw` folder).
+**Exercise**: There is a script in the `scripts` folder called `extract_valid_trials.py`. This scripts takes the path to a CSV file that contains trial information from a recording session and saves a new CSV file that only contains the "valid" trials. Can you create the CLI version of it please? Save it in the `clis` folder, and please make sure it works by applying it to the `session.csv` (which is in the `data/raw` folder).
 
 <br>
 
-**Exercise**: There are two scripts in the `scripts` forlder called `normalize_array.py` and `standardize_array.py`. Can you combine their functionality into a single CLI, called `transform_array.py`? With this CLI, the user can pass their desired transformation as an additional input argument. Please make sure the transformation is reflected in the name of the output file. Appply it on the `array.npy` file in the `data/raw` folder. Does it work?
+**Exercise**: There are two scripts in the `scripts` folder called `normalize_array.py` and `standardize_array.py`. Can you combine their functionality into a single CLI, called `transform_array.py`? With this CLI, the user can pass their desired transformation as an additional input argument. Please make sure the transformation is reflected in the name of the output file. Appply it on the `array.npy` file in the `data/raw` folder. Does it work?
 
 <br>
 
-**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have created some new files, let's commit the changes (with a short message) and push to GitHub.
 
 ---
 
@@ -83,7 +83,7 @@ Does it work?
 
 So far we have created CLIs where there is a specific number of arguments, and the CLI only runs if we specify a value for all the arguments. What if we want our CLI to run even if some arguments were not assigned a value by the user? These are "optional" arguments.
 
-Creating optional arguments for your CLI, is very similar to how we did it before, but we add a `--` before the name of the argument, and also specify a `default` value (in case nothing was specified by the user). Here is an example:
+Creating optional arguments for your CLI is very similar to how we did it before, but we add a `--` before the name of the argument, and also specify a `default` value (in case nothing was specified by the user). Here is an example:
 
 ```python
 # Defining an optional argument
@@ -100,7 +100,7 @@ Let's practice this a bit.
 
 <br>
 
-**Exercise**: Change the `transform_array.py` CLI such that the the operation argument is optional (default operation is to standardize).
+**Exercise**: Change the `transform_array.py` CLI such that the operation argument is optional (default operation is to standardize).
 
 <br>
 
@@ -108,7 +108,7 @@ Let's practice this a bit.
 
 <br>
 
-**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have created some new files, let's commit the changes (with a short message) and push to GitHub.
 
 ---
 
@@ -138,7 +138,7 @@ And of course, we can also run our CLIs in Jupyter Notebooks. To do this we can 
 
 <br>
 
-**Keep track of the development**: We have ceated some new files, let's commit the changes (with a short message) and push to GitHub.
+**Keep track of the development**: We have created some new files, let's commit the changes (with a short message) and push to GitHub.
 
 ---
 

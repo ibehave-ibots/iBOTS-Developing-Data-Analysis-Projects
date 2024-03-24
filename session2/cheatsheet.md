@@ -22,7 +22,7 @@ Here are some functions/commands that might come handy going through the exercis
 
 <br>
 
-**Numpy Functions**
+**Numpy**
 
 | Function       | Code                             | Description                                     |
 |----------------|----------------------------------|-------------------------------------------------|
@@ -35,7 +35,7 @@ Here are some functions/commands that might come handy going through the exercis
 
 <br>
 
-**Pandas Functions**
+**Pandas**
 
 | Function          | Code                                     | Description                                                      |
 |-------------------|------------------------------------------|------------------------------------------------------------------|
