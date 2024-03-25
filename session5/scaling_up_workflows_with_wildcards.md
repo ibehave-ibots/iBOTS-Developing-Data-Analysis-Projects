@@ -100,6 +100,6 @@ rule clean_dataset:
 
 ### Workflow for the Steinmetz dataset
 
-Let's create a workflow for the Steinmetz dataset. We have a workflow folder called `workflow_steinmetz`. Inside it you'll find a Snakefile that already contains rules to create figures for some of the behavioral variables using some of the functions we create together during the workshop. 
+Let's create a workflow for the Steinmetz dataset. We have a workflow folder called `workflow_project`. Inside it you'll find a Snakefile that already contains rules to create figures for some of the behavioral variables, directly using python code. 
 
 It's time to put it all together, but there is one last step that is missing: the current version of the workflow is only designed to work with the data from a specific recording session. First check if the current workflow works properly, and then let's changes it such that it runs for all the recording sessions we have 🎉
